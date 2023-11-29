@@ -209,14 +209,15 @@ hr.separating-line {
   .App {
     background-color: #606060;
     font-family: "Montserrat";
-    letter-spacing: 0.4px;
-
+    letter-spacing: 0.13px;
+    padding-top: 4rem;
+    padding-bottom: 6rem;
   }
 
 
   .cv {
     margin: 0 auto;
-    max-width: 74rem;
+    max-width: 24.6rem;
     background-color: #fcf9ef;
     display: flex;
   }
@@ -224,26 +225,26 @@ hr.separating-line {
   .left-section{
     background-color: #484f5f;
     flex-grow: 1;
-    max-width: 30rem;
+    max-width: 10rem;
     color: #ffe7d4;
   }
 
   .right-section{
     flex-grow: 2.5;
     color: #494e5f;
-    max-width: 44rem;
+    max-width: 14.6rem;
   }
 
   .left-section-container{
-    margin: 2rem;
+    margin: 0.7rem;
   }
 
   /*LEFT SECTION*/
   /*############################################################*/
 
   .photo{
-    max-width: 22rem;
-    margin-left: -1rem;
+    max-width: 7.3rem;
+    margin-left: -0.3rem;
     overflow: hidden;
   }
 
@@ -255,29 +256,29 @@ hr.separating-line {
   }
 
   .name{
-    font-size: 2.6rem;
+    font-size: 0.86rem;
     font-weight: bold;
   }
 
   .title{
-    font-size: 1.48rem;
+    font-size: 0.5rem;
     font-weight: lighter;
-    margin: 1.4rem 0;
+    margin: 0.46rem 0;
   }
 
   /* Thick border */
   hr.separating-line {
-    border: 2px solid #ffe7d4;
+    border: 1px solid #ffe7d4;
   }
 
   .left-section-title{
-    font-size: 1.5rem;
+    font-size: 0.5rem;
     font-weight: bold;
-    margin: 2.6rem 0 1rem 0;
+    margin: 0.86rem 0 0.3rem 0;
   }
 
   .about-me{
-    font-size: 1.24rem;
+    font-size: 0.41rem;
   }
 
   .skill-container{
@@ -291,14 +292,14 @@ hr.separating-line {
   }
 
   .skill-name{
-    font-size: 1.24rem;
+    font-size: 0.41rem;
   }
 
   .skill-bar {
-    width: 14.4rem;
+    width: 4.8rem;
     background-color: #40b8d5;
-    border-radius: 40px;
-    height: 1rem;
+    border-radius: 13px;
+    height: 0.33rem;
   }
 
   /* INDIVIDUAL BAR'S STYLING, SAME GOES WITH OTHER BARS */
@@ -307,8 +308,8 @@ hr.separating-line {
     width: 20%;
     background-color: #6ce5e8;
     color: #fff;
-    border-radius: 40px;
-    height: 1rem;
+    border-radius: 13px;
+    height: 0.3rem;
   }
 
   .bar-1{
@@ -336,56 +337,56 @@ hr.separating-line {
   }
 
   .spoken-language{
-    font-size: 1.34rem;
-    margin: 0.3rem 0;
+    font-size: 0.44rem;
+    margin: 0.1rem 0;
   }
 
   .contact-line{
-    font-size: 1.12rem;
-    margin: 0.4rem 0;
+    font-size: 0.37rem;
+    margin: 0.13rem 0;
   }
 
   /*RIGHT SIDE*/
   /*#############################################################*/
 
   .right-section-container{
-    margin: 2.4rem;
+    margin: 0.8rem;
   }
 
   .right-section-title{
     background-color: #ffe7d4;
-    padding-left: 2rem;
-    height: 2.4rem;
-    font-size: 22px;
+    padding-left: 0.66rem;
+    height: 0.8rem;
+    font-size: 7.3px;
     display: flex;
     align-items: center;
     font-weight: bold;
   }
 
   .a-work{
-    margin: 1.2rem 0;
+    margin: 0.4rem 0;
   }
 
   .work-title{
-    font-size: 1.5rem;
+    font-size: 0.5rem;
     font-weight: bold;
   }
 
   .work-location{
-    font-size: 1.44rem;
+    font-size: 0.48rem;
     font-weight: lighter;
   }
 
   .work-describtion{
-    font-size: 1rem;
+    font-size: 0.3rem;
     font-weight: lighter;
-    margin-top: 0.4rem;
-    margin-left: 1rem;
+    margin-top: 0.13rem;
+    margin-left: 0.3rem;
   }
 
   .project-url{
     color: black;
-    font-size: 1.1rem;
+    font-size: 0.36rem;
     text-decoration: underline;
   }
 }
