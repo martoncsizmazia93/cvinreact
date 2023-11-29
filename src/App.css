@@ -210,8 +210,10 @@ hr.separating-line {
     background-color: #606060;
     font-family: "Montserrat";
     letter-spacing: 0.13px;
-    padding-top: 1rem;
-    padding-bottom: 3rem;
+    height: 100vh;
+    display: flex;
+    align-items: center; /* Vertically center the content */
+    justify-content: center; /* Horizontally center the content */
   }
 
 
