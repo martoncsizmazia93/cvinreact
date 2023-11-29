@@ -186,20 +186,206 @@ hr.separating-line {
 }
 
 
+/*@media screen and (max-width: 420px) {*/
+/*  .App {*/
+/*    padding-top: 5rem;*/
+/*    zoom: 0.6;*/
+/*    -moz-transform: scale(0.6);*/
+/*    padding-bottom: 122px;*/
+/*  }*/
+/*}*/
+
+/*@media screen and (max-width: 300px) {*/
+/*  .App {*/
+/*    padding-top: 5rem;*/
+/*    zoom: 0.5;*/
+/*    -moz-transform: scale(0.5);*/
+/*    padding-bottom: 200px;*/
+/*  }*/
+/*}*/
+
+
 @media screen and (max-width: 420px) {
   .App {
-    padding-top: 5rem;
-    zoom: 0.6;
-    -moz-transform: scale(0.6);
-    padding-bottom: 122px;
-  }
-}
+    background-color: #606060;
+    font-family: "Montserrat";
+    letter-spacing: 0.4px;
 
-@media screen and (max-width: 300px) {
-  .App {
-    padding-top: 5rem;
-    zoom: 0.5;
-    -moz-transform: scale(0.5);
-    padding-bottom: 200px;
+  }
+
+
+  .cv {
+    margin: 0 auto;
+    max-width: 74rem;
+    background-color: #fcf9ef;
+    display: flex;
+  }
+
+  .left-section{
+    background-color: #484f5f;
+    flex-grow: 1;
+    max-width: 30rem;
+    color: #ffe7d4;
+  }
+
+  .right-section{
+    flex-grow: 2.5;
+    color: #494e5f;
+    max-width: 44rem;
+  }
+
+  .left-section-container{
+    margin: 2rem;
+  }
+
+  /*LEFT SECTION*/
+  /*############################################################*/
+
+  .photo{
+    max-width: 22rem;
+    margin-left: -1rem;
+    overflow: hidden;
+  }
+
+  .photo img {
+    object-fit: contain;
+    width: 100%;
+    border-radius: 50%;
+
+  }
+
+  .name{
+    font-size: 2.6rem;
+    font-weight: bold;
+  }
+
+  .title{
+    font-size: 1.48rem;
+    font-weight: lighter;
+    margin: 1.4rem 0;
+  }
+
+  /* Thick border */
+  hr.separating-line {
+    border: 2px solid #ffe7d4;
+  }
+
+  .left-section-title{
+    font-size: 1.5rem;
+    font-weight: bold;
+    margin: 2.6rem 0 1rem 0;
+  }
+
+  .about-me{
+    font-size: 1.24rem;
+  }
+
+  .skill-container{
+
+  }
+
+  .skill{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+  }
+
+  .skill-name{
+    font-size: 1.24rem;
+  }
+
+  .skill-bar {
+    width: 14.4rem;
+    background-color: #40b8d5;
+    border-radius: 40px;
+    height: 1rem;
+  }
+
+  /* INDIVIDUAL BAR'S STYLING, SAME GOES WITH OTHER BARS */
+
+  .bar {
+    width: 20%;
+    background-color: #6ce5e8;
+    color: #fff;
+    border-radius: 40px;
+    height: 1rem;
+  }
+
+  .bar-1{
+    width: 96%;
+  }
+
+  .bar-2{
+    width: 90%;
+  }
+
+  .bar-3{
+    width: 75%;
+  }
+
+  .bar-4{
+    width: 75%;
+  }
+
+  .bar-5{
+    width: 54%;
+  }
+
+  .bar-6{
+    width: 45%;
+  }
+
+  .spoken-language{
+    font-size: 1.34rem;
+    margin: 0.3rem 0;
+  }
+
+  .contact-line{
+    font-size: 1.12rem;
+    margin: 0.4rem 0;
+  }
+
+  /*RIGHT SIDE*/
+  /*#############################################################*/
+
+  .right-section-container{
+    margin: 2.4rem;
+  }
+
+  .right-section-title{
+    background-color: #ffe7d4;
+    padding-left: 2rem;
+    height: 2.4rem;
+    font-size: 22px;
+    display: flex;
+    align-items: center;
+    font-weight: bold;
+  }
+
+  .a-work{
+    margin: 1.2rem 0;
+  }
+
+  .work-title{
+    font-size: 1.5rem;
+    font-weight: bold;
+  }
+
+  .work-location{
+    font-size: 1.44rem;
+    font-weight: lighter;
+  }
+
+  .work-describtion{
+    font-size: 1rem;
+    font-weight: lighter;
+    margin-top: 0.4rem;
+    margin-left: 1rem;
+  }
+
+  .project-url{
+    color: black;
+    font-size: 1.1rem;
+    text-decoration: underline;
   }
 }
