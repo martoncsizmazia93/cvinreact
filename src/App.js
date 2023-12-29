@@ -96,7 +96,7 @@ function App() {
                     </div>
                     <div className="right-section-panel">
                     <div className="a-work">
-                        <div className="work-title">Fullstack Developer (Sep 2022 - Jul 2023)</div>
+                        <div className="work-title">Fullstack Developer (Sep 2022 - Jan 2024)</div>
                         <div className="work-location">Clario Clinical - Budapest</div>
                         <div className="work-describtion">Creating phone and web apps for pharmacy clinical trials in Waterfall
                             methodology from initial design to UAT, using Java, Spring Boot, NodeJs,
@@ -110,7 +110,7 @@ function App() {
                             CSS, PSQL</div>
                     </div>
                     <div className="a-work">
-                        <div className="work-title">Java Developer (Aug 2020 - Sep 2021)</div>
+                        <div className="work-title">Java Developer (Aug 2020 - Nov 2021)</div>
                         <div className="work-location">Deutsche Telekom IT Solutions - Budapest</div>
                         <div className="work-describtion">Maintaining and building company ERP in Agile team with Spring Boot for
                             the customer department, handling incoming API and functionality
