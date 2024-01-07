@@ -1,6 +1,7 @@
 import './App.css';
 import "@fontsource/montserrat"
 import myImage from './profile-picture.png';
+import myCV from './Márton-Csizmazia-CV.pdf';
 import React, { useState } from 'react';
 import { motion } from 'framer-motion';
 
@@ -85,6 +86,12 @@ function App() {
                     <div className="contact-line">Phone: +36303165634</div>
                     <div className="contact-line">E-Mail: csmarton93@gmail.com</div>
                     <div className="contact-line">Github: https://github.com/MartonCsizmazia</div>
+                  <div className="left-section-title download-button-container">
+                      <a className="download-button" href={myCV} download="Márton-Csizmazia-CV.pdf">
+                          Download PDF
+                      </a>
+                  </div>
+
               </div>
           </div>
         {/*######################################################################*/}

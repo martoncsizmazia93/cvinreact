@@ -72,6 +72,25 @@ hr.separating-line {
   margin: 2.6rem 0 1rem 0;
 }
 
+.download-button-container{
+  transition: 0.2s ease-in-out;
+  text-align: center;
+}
+
+.download-button-container:hover{
+  transform: scale(1.1);
+}
+
+.download-button{
+  padding: 0.2rem 1rem;
+  margin: 2.6rem 0 1rem 0;
+  border-radius: 7px;
+  border: 3px solid #ffe7d4;
+  cursor: pointer;
+  text-decoration: none;
+  color: #6ce5e8;
+}
+
 .about-me{
   font-size: 1.24rem;
 }
@@ -277,6 +296,10 @@ hr.separating-line {
     font-size: 0.5rem;
     font-weight: bold;
     margin: 0.86rem 0 0.3rem 0;
+  }
+
+  .download-button{
+    border: 2px solid #ffe7d4;
   }
 
   .about-me{
