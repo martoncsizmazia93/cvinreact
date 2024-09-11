@@ -54,8 +54,8 @@ const Navbar = styled.nav`
 `;
 
 const NavLink = styled(Link)`
-    margin: 0 20px;
-    font-size: 10px;
+    margin: 0 40px;
+    font-size: 20px;
     cursor: pointer;
     color: #333;
     transition: 0.3s;

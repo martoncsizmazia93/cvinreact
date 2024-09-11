@@ -23,23 +23,22 @@ export default Introduction;
 // Styled Component for Introduction Section
 const IntroContainer = styled.div`
     text-align: center;
-    padding: 50px 0;
+    padding: 100px 0;
     background-color: #fbb04c;
 
     h1 {
-        font-size: 2rem;
+        font-size: 3rem;
         color: #31302f;
         font-family: 'Poppins', sans-serif;
         font-weight: bold;
-        margin-bottom: 20px;
+        margin-bottom: 40px;
     }
 
     p {
-        font-size: 1rem;
+        font-size: 2rem;
         color: rgba(58, 55, 55, 0.82);
         font-family: 'Poppins', sans-serif;
         line-height: 1.6;
-        max-width: 800px;
         margin: 0 auto;
     }
 `;

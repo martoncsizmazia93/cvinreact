@@ -20,18 +20,18 @@ const StudyContainer = styled.div`
     text-align: center;
     //background-color: #f0f4f8;
     background-image: url(${backgroundImage});
-    padding: 50px 0;
+    padding: 100px 0;
     font-family: 'Poppins', sans-serif;
 
     h2 {
-        font-size: 2.5rem;
+        font-size: 3rem;
         color: #333;
         margin-bottom: 20px;
         font-weight: bold;
     }
 
     p {
-        font-size: 1.25rem;
+        font-size: 1.5rem;
         margin: 20px 0;
         color: #666;
     }
