@@ -44,7 +44,7 @@ const Navbar = styled.nav`
     position: fixed;
     top: 0;
     width: 100%;
-    background-color: #fff;
+    background-color: #f8eee1;
     display: flex;
     justify-content: center;
     padding: 15px 0;
@@ -55,8 +55,7 @@ const Navbar = styled.nav`
 
 const NavLink = styled(Link)`
     margin: 0 20px;
-    font-size: 14px;
-    font-weight: bold;
+    font-size: 10px;
     cursor: pointer;
     color: #333;
     transition: 0.3s;
