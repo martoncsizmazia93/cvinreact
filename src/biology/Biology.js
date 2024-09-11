@@ -64,6 +64,9 @@ const NavLink = styled(Link)`
         transition: 0.3s
     ;
     }
+    @media screen and (max-width: 750px) {
+        margin: 0 18px;
+    }
 `;
 
 const Section = styled.section`
