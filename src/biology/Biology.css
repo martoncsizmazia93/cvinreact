@@ -1,0 +1,9 @@
+body{
+    margin: 0;
+}
+
+.section-container{
+    margin: 0 auto;
+    max-width: 30rem;
+    padding: 0 2rem;
+}
